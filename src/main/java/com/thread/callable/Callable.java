@@ -35,7 +35,10 @@ public class Callable {
 		final CallableRequest data = CallableRequest.of("test1", "test2", "test3");
 		
 		final List<CallableRequest> reqList =
-				Arrays.asList(data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data);
+				Arrays.asList(data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data
+						, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data
+						, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data
+						, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data);
 		
 		final List<CallableResult> resultList = new ArrayList<CallableResult>();
 		
