@@ -1,4 +1,4 @@
 # multi-thread
 
-java 서버 개발에서 멀티쓰레드는 필수도 아니고 그냥 기본이다.
-간단히 정리해보자.
+멀티쓰레드를 쓰는 방법은 용도에 따라 callable, runble, newFixedThreadPool, newCachedThreadPool, Blocking Queue 등등 여러가지 방법이 있다.
+하나씩 정리해보자.
